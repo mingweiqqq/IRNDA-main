@@ -18,6 +18,7 @@ Our benchmark is modified based on [Transfer-Learning-Library](https://github.co
 ```
 For example:
 python train.py --targetfile '../data/metadata/B.csv' --targetimage '../data/B' --domain 'B' --e_cutoff -9.5 -a resnet50 --epochs 20 --seed 1 --log logs/IRNDA/H_B
+python train.py --targetfile '../data/metadata/BLH.csv' --targetimage '../data/BLH' --domain 'BLH' --e_cutoff -11.5 -a resnet50 --epochs 20 --seed 1 --log logs/IRNDA/H_BLH
 ```
 ## Acknowledgment
 This code is built on [Transfer-Learning-Library](https://github.com/thuml/Transfer-Learning-Library) and [DebiasedPL](https://github.com/frank-xwang/debiased-pseudo-labeling). We thank the authors for sharing their codes.
