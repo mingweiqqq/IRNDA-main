@@ -1,7 +1,9 @@
-# IRNDA
-This is the official code of the paper "**IRNDA**".
+# Iterative resampling noise-robust domain adaptation (IRNDA) for cross-domain skin disease diagnosis under class imbalance
+This is the official code of the paper "**Iterative resampling noise-robust domain adaptation (IRNDA) for
+cross-domain skin disease diagnosis under class imbalance**".
 ## Introduction
 ![highlights](IRNDA-main/domain-shift.png)
+An applied scenario of the coexistence of covariate shift and label shift can be observed in cross-domain skin disease diagnosis. This scenario reflects that the source and target domains differ not only in visual features but also in their potential class label distributions. (The acronyms used are as follows: NEV stands for nevus; MEL refers to melanoma; BKL indicates benign keratosis-like lesions; BCC represents basal cell carcinoma. Nevus and benign keratosis-like lesions are benign skin diseases, while melanoma and basal cell carcinoma are skin cancers.)
 ## Installation
 This implementation is based on [Transfer-Learning-Library](https://github.com/thuml/Transfer-Learning-Library). Please take a look at the Transfer-Learning-Library for installation instructions.
 ## Preparing datasets
