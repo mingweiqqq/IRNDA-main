@@ -1,7 +1,7 @@
 # IRNDA
 This is the official code of the paper "**IRNDA**".
 ## Introduction
-![highlights](domain-shift.png)
+![highlights](IRNDA-main/domain-shift.png)
 ## Installation
 This implementation is based on [Transfer-Learning-Library](https://github.com/thuml/Transfer-Learning-Library). Please take a look at the Transfer-Learning-Library for installation instructions.
 ## Preparing datasets
@@ -10,7 +10,7 @@ This implementation is based on [Transfer-Learning-Library](https://github.com/t
 **Derm7pt-C:** download Derm7pt-C dataset from [here](https://derm.cs.sfu.ca/Welcome.html).<br>
 **Skin dermoscopic image datasets of different domains:** download skin dermoscopic image datasets of different domains from [here](https://gitlab.com/dlr-dw/isic_download).
 ## CSV files for 4 datasets
-You can find them [here](data/metadata).
+You can find them [here](IRNDA-maindata/metadata).
 ## Training
 Our benchmark is modified based on [Transfer-Learning-Library](https://github.com/thuml/Transfer-Learning-Library). Please refer to the Transfer-Learning-Library Readme for more details on running command jobs.
 ```
